@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1C3BBA314AC935A005B9F99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3BBA214AC935A005B9F99 /* UIKit.framework */; };
+		E1C3BBA514AC935A005B9F99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3BBA414AC935A005B9F99 /* Foundation.framework */; };
+		E1C3BBA714AC935A005B9F99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3BBA614AC935A005B9F99 /* CoreGraphics.framework */; };
+		E1C3BBAD14AC935A005B9F99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1C3BBAB14AC935A005B9F99 /* InfoPlist.strings */; };
+		E1C3BBAF14AC935A005B9F99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3BBAE14AC935A005B9F99 /* main.m */; };
+		E1C3BBB314AC935A005B9F99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3BBB214AC935A005B9F99 /* AppDelegate.m */; };
+		E1C3BBB614AC935A005B9F99 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C3BBB414AC935A005B9F99 /* MainStoryboard.storyboard */; };
+		E1C3BBB914AC935A005B9F99 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3BBB814AC935A005B9F99 /* MasterViewController.m */; };
+		E1C3BBBC14AC935A005B9F99 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3BBBB14AC935A005B9F99 /* DetailViewController.m */; };
+		E1C3BBC414AC935A005B9F99 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3BBC314AC935A005B9F99 /* SenTestingKit.framework */; };
+		E1C3BBC514AC935A005B9F99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3BBA214AC935A005B9F99 /* UIKit.framework */; };
+		E1C3BBC614AC935A005B9F99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3BBA414AC935A005B9F99 /* Foundation.framework */; };
+		E1C3BBCE14AC935A005B9F99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1C3BBCC14AC935A005B9F99 /* InfoPlist.strings */; };
+		E1C3BBD114AC935A005B9F99 /* GDALTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3BBD014AC935A005B9F99 /* GDALTests.m */; };
+		E1C3BBDB14AC939B005B9F99 /* libgdal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3BBDA14AC939B005B9F99 /* libgdal.a */; };
+		E1C3BBDF14AC9497005B9F99 /* tgr53007lpt.dbf in Resources */ = {isa = PBXBuildFile; fileRef = E1C3BBDC14AC9497005B9F99 /* tgr53007lpt.dbf */; };
+		E1C3BBE014AC9497005B9F99 /* tgr53007lpt.shp in Resources */ = {isa = PBXBuildFile; fileRef = E1C3BBDD14AC9497005B9F99 /* tgr53007lpt.shp */; };
+		E1C3BBE114AC9497005B9F99 /* tgr53007lpt.shx in Resources */ = {isa = PBXBuildFile; fileRef = E1C3BBDE14AC9497005B9F99 /* tgr53007lpt.shx */; };
+		E1C3BBE614AC94DA005B9F99 /* GDALWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1C3BBE514AC94DA005B9F99 /* GDALWrapper.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1C3BBC714AC935A005B9F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C3BB9514AC935A005B9F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1C3BB9D14AC935A005B9F99;
+			remoteInfo = GDAL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1C3BB9E14AC935A005B9F99 /* GDAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C3BBA214AC935A005B9F99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1C3BBA414AC935A005B9F99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1C3BBA614AC935A005B9F99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1C3BBAA14AC935A005B9F99 /* GDAL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GDAL-Info.plist"; sourceTree = "<group>"; };
+		E1C3BBAC14AC935A005B9F99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1C3BBAE14AC935A005B9F99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1C3BBB014AC935A005B9F99 /* GDAL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GDAL-Prefix.pch"; sourceTree = "<group>"; };
+		E1C3BBB114AC935A005B9F99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1C3BBB214AC935A005B9F99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1C3BBB514AC935A005B9F99 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E1C3BBB714AC935A005B9F99 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E1C3BBB814AC935A005B9F99 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E1C3BBBA14AC935A005B9F99 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E1C3BBBB14AC935A005B9F99 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E1C3BBC214AC935A005B9F99 /* GDALTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDALTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C3BBC314AC935A005B9F99 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E1C3BBCB14AC935A005B9F99 /* GDALTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GDALTests-Info.plist"; sourceTree = "<group>"; };
+		E1C3BBCD14AC935A005B9F99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1C3BBCF14AC935A005B9F99 /* GDALTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDALTests.h; sourceTree = "<group>"; };
+		E1C3BBD014AC935A005B9F99 /* GDALTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDALTests.m; sourceTree = "<group>"; };
+		E1C3BBDA14AC939B005B9F99 /* libgdal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgdal.a; path = ../../../../Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/lib/libgdal.a; sourceTree = "<group>"; };
+		E1C3BBDC14AC9497005B9F99 /* tgr53007lpt.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tgr53007lpt.dbf; sourceTree = "<group>"; };
+		E1C3BBDD14AC9497005B9F99 /* tgr53007lpt.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = tgr53007lpt.shp; sourceTree = "<group>"; };
+		E1C3BBDE14AC9497005B9F99 /* tgr53007lpt.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = tgr53007lpt.shx; sourceTree = "<group>"; };
+		E1C3BBE414AC94DA005B9F99 /* GDALWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDALWrapper.h; sourceTree = "<group>"; };
+		E1C3BBE514AC94DA005B9F99 /* GDALWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GDALWrapper.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1C3BB9B14AC935A005B9F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C3BBDB14AC939B005B9F99 /* libgdal.a in Frameworks */,
+				E1C3BBA314AC935A005B9F99 /* UIKit.framework in Frameworks */,
+				E1C3BBA514AC935A005B9F99 /* Foundation.framework in Frameworks */,
+				E1C3BBA714AC935A005B9F99 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C3BBBE14AC935A005B9F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C3BBC414AC935A005B9F99 /* SenTestingKit.framework in Frameworks */,
+				E1C3BBC514AC935A005B9F99 /* UIKit.framework in Frameworks */,
+				E1C3BBC614AC935A005B9F99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1C3BB9314AC935A005B9F99 = {
+			isa = PBXGroup;
+			children = (
+				E1C3BBA814AC935A005B9F99 /* GDAL */,
+				E1C3BBC914AC935A005B9F99 /* GDALTests */,
+				E1C3BBA114AC935A005B9F99 /* Frameworks */,
+				E1C3BB9F14AC935A005B9F99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1C3BB9F14AC935A005B9F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3BB9E14AC935A005B9F99 /* GDAL.app */,
+				E1C3BBC214AC935A005B9F99 /* GDALTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C3BBA114AC935A005B9F99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3BBDA14AC939B005B9F99 /* libgdal.a */,
+				E1C3BBA214AC935A005B9F99 /* UIKit.framework */,
+				E1C3BBA414AC935A005B9F99 /* Foundation.framework */,
+				E1C3BBA614AC935A005B9F99 /* CoreGraphics.framework */,
+				E1C3BBC314AC935A005B9F99 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1C3BBA814AC935A005B9F99 /* GDAL */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3BBE414AC94DA005B9F99 /* GDALWrapper.h */,
+				E1C3BBE514AC94DA005B9F99 /* GDALWrapper.mm */,
+				E1C3BBB114AC935A005B9F99 /* AppDelegate.h */,
+				E1C3BBB214AC935A005B9F99 /* AppDelegate.m */,
+				E1C3BBB714AC935A005B9F99 /* MasterViewController.h */,
+				E1C3BBB814AC935A005B9F99 /* MasterViewController.m */,
+				E1C3BBBA14AC935A005B9F99 /* DetailViewController.h */,
+				E1C3BBBB14AC935A005B9F99 /* DetailViewController.m */,
+				E1C3BBA914AC935A005B9F99 /* Supporting Files */,
+			);
+			path = GDAL;
+			sourceTree = "<group>";
+		};
+		E1C3BBA914AC935A005B9F99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3BBB414AC935A005B9F99 /* MainStoryboard.storyboard */,
+				E1C3BBE314AC94A3005B9F99 /* Shape */,
+				E1C3BBAA14AC935A005B9F99 /* GDAL-Info.plist */,
+				E1C3BBAB14AC935A005B9F99 /* InfoPlist.strings */,
+				E1C3BBAE14AC935A005B9F99 /* main.m */,
+				E1C3BBB014AC935A005B9F99 /* GDAL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1C3BBC914AC935A005B9F99 /* GDALTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3BBCF14AC935A005B9F99 /* GDALTests.h */,
+				E1C3BBD014AC935A005B9F99 /* GDALTests.m */,
+				E1C3BBCA14AC935A005B9F99 /* Supporting Files */,
+			);
+			path = GDALTests;
+			sourceTree = "<group>";
+		};
+		E1C3BBCA14AC935A005B9F99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3BBCB14AC935A005B9F99 /* GDALTests-Info.plist */,
+				E1C3BBCC14AC935A005B9F99 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1C3BBE314AC94A3005B9F99 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3BBDC14AC9497005B9F99 /* tgr53007lpt.dbf */,
+				E1C3BBDD14AC9497005B9F99 /* tgr53007lpt.shp */,
+				E1C3BBDE14AC9497005B9F99 /* tgr53007lpt.shx */,
+			);
+			name = Shape;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1C3BB9D14AC935A005B9F99 /* GDAL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C3BBD414AC935A005B9F99 /* Build configuration list for PBXNativeTarget "GDAL" */;
+			buildPhases = (
+				E1C3BB9A14AC935A005B9F99 /* Sources */,
+				E1C3BB9B14AC935A005B9F99 /* Frameworks */,
+				E1C3BB9C14AC935A005B9F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDAL;
+			productName = GDAL;
+			productReference = E1C3BB9E14AC935A005B9F99 /* GDAL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1C3BBC114AC935A005B9F99 /* GDALTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C3BBD714AC935A005B9F99 /* Build configuration list for PBXNativeTarget "GDALTests" */;
+			buildPhases = (
+				E1C3BBBD14AC935A005B9F99 /* Sources */,
+				E1C3BBBE14AC935A005B9F99 /* Frameworks */,
+				E1C3BBBF14AC935A005B9F99 /* Resources */,
+				E1C3BBC014AC935A005B9F99 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1C3BBC814AC935A005B9F99 /* PBXTargetDependency */,
+			);
+			name = GDALTests;
+			productName = GDALTests;
+			productReference = E1C3BBC214AC935A005B9F99 /* GDALTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1C3BB9514AC935A005B9F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E1C3BB9814AC935A005B9F99 /* Build configuration list for PBXProject "GDAL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1C3BB9314AC935A005B9F99;
+			productRefGroup = E1C3BB9F14AC935A005B9F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1C3BB9D14AC935A005B9F99 /* GDAL */,
+				E1C3BBC114AC935A005B9F99 /* GDALTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1C3BB9C14AC935A005B9F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C3BBAD14AC935A005B9F99 /* InfoPlist.strings in Resources */,
+				E1C3BBB614AC935A005B9F99 /* MainStoryboard.storyboard in Resources */,
+				E1C3BBDF14AC9497005B9F99 /* tgr53007lpt.dbf in Resources */,
+				E1C3BBE014AC9497005B9F99 /* tgr53007lpt.shp in Resources */,
+				E1C3BBE114AC9497005B9F99 /* tgr53007lpt.shx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C3BBBF14AC935A005B9F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C3BBCE14AC935A005B9F99 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1C3BBC014AC935A005B9F99 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1C3BB9A14AC935A005B9F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C3BBAF14AC935A005B9F99 /* main.m in Sources */,
+				E1C3BBB314AC935A005B9F99 /* AppDelegate.m in Sources */,
+				E1C3BBB914AC935A005B9F99 /* MasterViewController.m in Sources */,
+				E1C3BBBC14AC935A005B9F99 /* DetailViewController.m in Sources */,
+				E1C3BBE614AC94DA005B9F99 /* GDALWrapper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C3BBBD14AC935A005B9F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C3BBD114AC935A005B9F99 /* GDALTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1C3BBC814AC935A005B9F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1C3BB9D14AC935A005B9F99 /* GDAL */;
+			targetProxy = E1C3BBC714AC935A005B9F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1C3BBAB14AC935A005B9F99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C3BBAC14AC935A005B9F99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1C3BBB414AC935A005B9F99 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C3BBB514AC935A005B9F99 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		E1C3BBCC14AC935A005B9F99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C3BBCD14AC935A005B9F99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1C3BBD214AC935A005B9F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(HOME)/$(SDK_DIR)/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(HOME)/$(SDK_DIR)/lib";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lstdc++",
+					"-lz",
+					"-lgdal",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E1C3BBD314AC935A005B9F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1C3BBD514AC935A005B9F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GDAL/GDAL-Prefix.pch";
+				INFOPLIST_FILE = "GDAL/GDAL-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1C3BBD614AC935A005B9F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GDAL/GDAL-Prefix.pch";
+				INFOPLIST_FILE = "GDAL/GDAL-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E1C3BBD814AC935A005B9F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GDAL.app/GDAL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GDAL/GDAL-Prefix.pch";
+				INFOPLIST_FILE = "GDALTests/GDALTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E1C3BBD914AC935A005B9F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GDAL.app/GDAL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GDAL/GDAL-Prefix.pch";
+				INFOPLIST_FILE = "GDALTests/GDALTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1C3BB9814AC935A005B9F99 /* Build configuration list for PBXProject "GDAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C3BBD214AC935A005B9F99 /* Debug */,
+				E1C3BBD314AC935A005B9F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C3BBD414AC935A005B9F99 /* Build configuration list for PBXNativeTarget "GDAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C3BBD514AC935A005B9F99 /* Debug */,
+				E1C3BBD614AC935A005B9F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1C3BBD714AC935A005B9F99 /* Build configuration list for PBXNativeTarget "GDALTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C3BBD814AC935A005B9F99 /* Debug */,
+				E1C3BBD914AC935A005B9F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1C3BB9514AC935A005B9F99 /* Project object */;
+}
