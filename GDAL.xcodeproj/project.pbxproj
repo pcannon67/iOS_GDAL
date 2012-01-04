@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E127BC9414B301A700F06133 /* tgr34001lpt.dbf in Resources */ = {isa = PBXBuildFile; fileRef = E127BC9114B301A700F06133 /* tgr34001lpt.dbf */; };
+		E127BC9514B301A700F06133 /* tgr34001lpt.shp in Resources */ = {isa = PBXBuildFile; fileRef = E127BC9214B301A700F06133 /* tgr34001lpt.shp */; };
+		E127BC9614B301A700F06133 /* tgr34001lpt.shx in Resources */ = {isa = PBXBuildFile; fileRef = E127BC9314B301A700F06133 /* tgr34001lpt.shx */; };
+		E19B745A14B45CBD00A40CFE /* libgdal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E19B745914B45CBD00A40CFE /* libgdal.a */; };
 		E1C3BBA314AC935A005B9F99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3BBA214AC935A005B9F99 /* UIKit.framework */; };
 		E1C3BBA514AC935A005B9F99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3BBA414AC935A005B9F99 /* Foundation.framework */; };
 		E1C3BBA714AC935A005B9F99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3BBA614AC935A005B9F99 /* CoreGraphics.framework */; };
@@ -21,10 +25,6 @@
 		E1C3BBC614AC935A005B9F99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3BBA414AC935A005B9F99 /* Foundation.framework */; };
 		E1C3BBCE14AC935A005B9F99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1C3BBCC14AC935A005B9F99 /* InfoPlist.strings */; };
 		E1C3BBD114AC935A005B9F99 /* GDALTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3BBD014AC935A005B9F99 /* GDALTests.m */; };
-		E1C3BBDB14AC939B005B9F99 /* libgdal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3BBDA14AC939B005B9F99 /* libgdal.a */; };
-		E1C3BBDF14AC9497005B9F99 /* tgr53007lpt.dbf in Resources */ = {isa = PBXBuildFile; fileRef = E1C3BBDC14AC9497005B9F99 /* tgr53007lpt.dbf */; };
-		E1C3BBE014AC9497005B9F99 /* tgr53007lpt.shp in Resources */ = {isa = PBXBuildFile; fileRef = E1C3BBDD14AC9497005B9F99 /* tgr53007lpt.shp */; };
-		E1C3BBE114AC9497005B9F99 /* tgr53007lpt.shx in Resources */ = {isa = PBXBuildFile; fileRef = E1C3BBDE14AC9497005B9F99 /* tgr53007lpt.shx */; };
 		E1C3BBE614AC94DA005B9F99 /* GDALWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1C3BBE514AC94DA005B9F99 /* GDALWrapper.mm */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E127BC9114B301A700F06133 /* tgr34001lpt.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tgr34001lpt.dbf; sourceTree = "<group>"; };
+		E127BC9214B301A700F06133 /* tgr34001lpt.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = tgr34001lpt.shp; sourceTree = "<group>"; };
+		E127BC9314B301A700F06133 /* tgr34001lpt.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = tgr34001lpt.shx; sourceTree = "<group>"; };
+		E19B745914B45CBD00A40CFE /* libgdal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgdal.a; path = ../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/lib/libgdal.a; sourceTree = "<group>"; };
 		E1C3BB9E14AC935A005B9F99 /* GDAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C3BBA214AC935A005B9F99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E1C3BBA414AC935A005B9F99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,10 +64,6 @@
 		E1C3BBCD14AC935A005B9F99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1C3BBCF14AC935A005B9F99 /* GDALTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDALTests.h; sourceTree = "<group>"; };
 		E1C3BBD014AC935A005B9F99 /* GDALTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDALTests.m; sourceTree = "<group>"; };
-		E1C3BBDA14AC939B005B9F99 /* libgdal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgdal.a; path = ../../../../Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/lib/libgdal.a; sourceTree = "<group>"; };
-		E1C3BBDC14AC9497005B9F99 /* tgr53007lpt.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tgr53007lpt.dbf; sourceTree = "<group>"; };
-		E1C3BBDD14AC9497005B9F99 /* tgr53007lpt.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = tgr53007lpt.shp; sourceTree = "<group>"; };
-		E1C3BBDE14AC9497005B9F99 /* tgr53007lpt.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = tgr53007lpt.shx; sourceTree = "<group>"; };
 		E1C3BBE414AC94DA005B9F99 /* GDALWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDALWrapper.h; sourceTree = "<group>"; };
 		E1C3BBE514AC94DA005B9F99 /* GDALWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GDALWrapper.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C3BBDB14AC939B005B9F99 /* libgdal.a in Frameworks */,
+				E19B745A14B45CBD00A40CFE /* libgdal.a in Frameworks */,
 				E1C3BBA314AC935A005B9F99 /* UIKit.framework in Frameworks */,
 				E1C3BBA514AC935A005B9F99 /* Foundation.framework in Frameworks */,
 				E1C3BBA714AC935A005B9F99 /* CoreGraphics.framework in Frameworks */,
@@ -96,6 +96,7 @@
 		E1C3BB9314AC935A005B9F99 = {
 			isa = PBXGroup;
 			children = (
+				E19B745914B45CBD00A40CFE /* libgdal.a */,
 				E1C3BBA814AC935A005B9F99 /* GDAL */,
 				E1C3BBC914AC935A005B9F99 /* GDALTests */,
 				E1C3BBA114AC935A005B9F99 /* Frameworks */,
@@ -115,7 +116,6 @@
 		E1C3BBA114AC935A005B9F99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E1C3BBDA14AC939B005B9F99 /* libgdal.a */,
 				E1C3BBA214AC935A005B9F99 /* UIKit.framework */,
 				E1C3BBA414AC935A005B9F99 /* Foundation.framework */,
 				E1C3BBA614AC935A005B9F99 /* CoreGraphics.framework */,
@@ -175,9 +175,9 @@
 		E1C3BBE314AC94A3005B9F99 /* Shape */ = {
 			isa = PBXGroup;
 			children = (
-				E1C3BBDC14AC9497005B9F99 /* tgr53007lpt.dbf */,
-				E1C3BBDD14AC9497005B9F99 /* tgr53007lpt.shp */,
-				E1C3BBDE14AC9497005B9F99 /* tgr53007lpt.shx */,
+				E127BC9114B301A700F06133 /* tgr34001lpt.dbf */,
+				E127BC9214B301A700F06133 /* tgr34001lpt.shp */,
+				E127BC9314B301A700F06133 /* tgr34001lpt.shx */,
 			);
 			name = Shape;
 			sourceTree = "<group>";
@@ -254,9 +254,9 @@
 			files = (
 				E1C3BBAD14AC935A005B9F99 /* InfoPlist.strings in Resources */,
 				E1C3BBB614AC935A005B9F99 /* MainStoryboard.storyboard in Resources */,
-				E1C3BBDF14AC9497005B9F99 /* tgr53007lpt.dbf in Resources */,
-				E1C3BBE014AC9497005B9F99 /* tgr53007lpt.shp in Resources */,
-				E1C3BBE114AC9497005B9F99 /* tgr53007lpt.shx in Resources */,
+				E127BC9414B301A700F06133 /* tgr34001lpt.dbf in Resources */,
+				E127BC9514B301A700F06133 /* tgr34001lpt.shp in Resources */,
+				E127BC9614B301A700F06133 /* tgr34001lpt.shx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,14 +365,16 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				"HEADER_SEARCH_PATHS[arch=*]" = "$(HOME)/$(SDK_DIR)/include";
+				HEADER_SEARCH_PATHS = "$(HOME)/$(SDK_DIR)/include/**";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(HOME)/$(SDK_DIR)/include/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(HOME)/$(SDK_DIR)/lib";
-				"OTHER_LDFLAGS[arch=*]" = (
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(HOME)/$(SDK_DIR)/lib/**";
+				OTHER_LDFLAGS = (
 					"-lstdc++",
 					"-lz",
 					"-lgdal",
 				);
+				"OTHER_LDFLAGS[arch=*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -391,8 +393,14 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(HOME)/$(SDK_DIR)/include/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+					"-lgdal",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -404,10 +412,22 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GDAL/GDAL-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(HOME)/$(SDK_DIR)/include/**";
 				INFOPLIST_FILE = "GDAL/GDAL-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
+					"$(HOME)/$(SDK_DIR)/lib/**",
 					"\"$(SRCROOT)/../../../../Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/lib\"",
+					"\"$(SRCROOT)/../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+					"-lgdal",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lstdc++",
+					"-lz",
+					"-lgdal",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -419,10 +439,17 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GDAL/GDAL-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(HOME)/$(SDK_DIR)/include/**";
 				INFOPLIST_FILE = "GDAL/GDAL-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
+					"$(HOME)/$(SDK_DIR)/lib/**",
 					"\"$(SRCROOT)/../../../../Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/lib\"",
+					"\"$(SRCROOT)/../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+					"-lgdal",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -482,6 +509,7 @@
 				E1C3BBD614AC935A005B9F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1C3BBD714AC935A005B9F99 /* Build configuration list for PBXNativeTarget "GDALTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +518,7 @@
 				E1C3BBD914AC935A005B9F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

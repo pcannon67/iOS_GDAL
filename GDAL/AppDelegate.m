@@ -15,7 +15,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    GDALWrapper *wrapper = [[GDALWrapper alloc] initWithFile:@"tgr53007lpt" ofType:@"shp"];
+    
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSError *error;  
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);  
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSArray *files = [fileManager contentsOfDirectoryAtPath:documentsDirectory error:&error];
+    
+    //NSString *documentDBFolderPath = [documentsDirectory stringByAppendingPathComponent:fileName];
+    
+    GDALWrapper *wrapper = [[GDALWrapper alloc] initWithFile:@"tgr34001lpt" ofType:@"shp"];
     [wrapper readData];
     // Override point for customization after application launch.
     UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;

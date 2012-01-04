@@ -8,12 +8,13 @@
 
 #import "GDALWrapper.h"
 #include "ogrsf_frmts.h"
-
+ 
 @interface GDALWrapper() {
 
      NSString *_filePath;
 }
 @end
+
 
 @implementation GDALWrapper
 
